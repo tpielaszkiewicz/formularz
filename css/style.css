@@ -17,8 +17,12 @@ select{
 }
 
 input,
-label{
+select{
     background-color: #2b4a64;
+}
+
+label{
+    background-color: #213b50;
 }
 
 input[type="submit"] {
