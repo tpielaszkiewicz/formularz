@@ -4,25 +4,21 @@ html {
 }
 #formularz {
     background-color: #213b50;
-    width: 50%;
+    width: 430px;
     padding: 10px;
 }
 
 label,
-input{
+input,
+select{
     color:white;
     margin: 5px;
-}
-input{
-    background-color: #2b4a64;
-    border: none;
+    border: 2px solid transparent;
 }
 
-select{
-    margin: 5px;
+input,
+label{
     background-color: #2b4a64;
-    border: transparent;
-    color: white;
 }
 
 input[type="submit"] {
@@ -35,10 +31,10 @@ input[type="submit"] {
 
 label[for=""] {
     margin: 0px;
-}
+ }
 
 input:focus {
-    background-color: green;
-    border: 1px solid red;
-    color: pink;
+    background-color: #213b30;
+    border: 2px solid white;
+    color: white;
 }
