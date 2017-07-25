@@ -1,5 +1,5 @@
 html {
-     font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: white;
 }
 #formularz {
@@ -25,6 +25,12 @@ label{
     background-color: #213b50;
 }
 
+input:focus {
+    background-color: #213b30;
+    border: 2px solid white;
+    color: white;
+}
+
 input[type="submit"] {
     background-color: greenyellow;
     color:white;
@@ -37,8 +43,4 @@ label[for=""] {
     margin: 0px;
  }
 
-input:focus {
-    background-color: #213b30;
-    border: 2px solid white;
-    color: white;
-}
+
